@@ -39,8 +39,8 @@
                                     <segue destination="txc-b4-MXe" kind="show" id="evt-yp-sbR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVl-gJ-mfG">
-                                <rect key="frame" x="914" y="966" width="93" height="46"/>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVl-gJ-mfG" customClass="FocusableLabel" customModule="Focus_Engine_Starter" customModuleProvider="target">
+                                <rect key="frame" x="914" y="920" width="93" height="46"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -52,11 +52,14 @@
                             <constraint firstItem="UWa-AH-mmM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="883-pK-Skz"/>
                             <constraint firstItem="rMi-E9-Ni9" firstAttribute="top" secondItem="iYU-Lf-caQ" secondAttribute="bottom" constant="-77" id="GSW-9V-8ak"/>
                             <constraint firstItem="UWa-AH-mmM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ogy-w9-Voy"/>
-                            <constraint firstItem="yVl-gJ-mfG" firstAttribute="top" secondItem="rMi-E9-Ni9" secondAttribute="bottom" constant="-54" id="t4T-2d-h6n"/>
+                            <constraint firstItem="yVl-gJ-mfG" firstAttribute="top" secondItem="rMi-E9-Ni9" secondAttribute="bottom" constant="-100" id="t4T-2d-h6n"/>
                             <constraint firstItem="yVl-gJ-mfG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zOK-s9-3Sy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rMi-E9-Ni9"/>
                     </view>
+                    <connections>
+                        <outlet property="focusableLabel" destination="yVl-gJ-mfG" id="QGm-ys-AjO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
