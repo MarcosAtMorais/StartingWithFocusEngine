@@ -8,9 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     @IBOutlet weak var focusableLabel: FocusableLabel!
+    
+    /// Atributo que determina qual será a view "preferida" da ViewController para a Focus Engine.
+    override var preferredFocusedView: UIView? {
+        return self.focusableLabel
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +26,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 
