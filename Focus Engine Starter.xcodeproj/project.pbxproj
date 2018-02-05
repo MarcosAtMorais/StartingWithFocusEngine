@@ -11,7 +11,7 @@
 		C668B63B2028884F00F753C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668B63A2028884F00F753C3 /* ViewController.swift */; };
 		C668B63E2028884F00F753C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C668B63C2028884F00F753C3 /* Main.storyboard */; };
 		C668B6402028884F00F753C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C668B63F2028884F00F753C3 /* Assets.xcassets */; };
-		C668B64820288ED600F753C3 /* TvShowsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668B64720288ED600F753C3 /* TvShowsTableViewController.swift */; };
+		C668B64820288ED600F753C3 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668B64720288ED600F753C3 /* ProductsTableViewController.swift */; };
 		C668B64A20288EF500F753C3 /* FocusableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668B64920288EF500F753C3 /* FocusableLabel.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +22,7 @@
 		C668B63D2028884F00F753C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C668B63F2028884F00F753C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C668B6412028884F00F753C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C668B64720288ED600F753C3 /* TvShowsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowsTableViewController.swift; sourceTree = "<group>"; };
+		C668B64720288ED600F753C3 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		C668B64920288EF500F753C3 /* FocusableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusableLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 				C668B63C2028884F00F753C3 /* Main.storyboard */,
 				C668B63F2028884F00F753C3 /* Assets.xcassets */,
 				C668B6412028884F00F753C3 /* Info.plist */,
-				C668B64720288ED600F753C3 /* TvShowsTableViewController.swift */,
+				C668B64720288ED600F753C3 /* ProductsTableViewController.swift */,
 				C668B64920288EF500F753C3 /* FocusableLabel.swift */,
 			);
 			path = "Focus Engine Starter";
@@ -140,7 +140,7 @@
 			files = (
 				C668B63B2028884F00F753C3 /* ViewController.swift in Sources */,
 				C668B6392028884F00F753C3 /* AppDelegate.swift in Sources */,
-				C668B64820288ED600F753C3 /* TvShowsTableViewController.swift in Sources */,
+				C668B64820288ED600F753C3 /* ProductsTableViewController.swift in Sources */,
 				C668B64A20288EF500F753C3 /* FocusableLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

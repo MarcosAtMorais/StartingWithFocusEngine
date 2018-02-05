@@ -8,7 +8,10 @@
 
 import UIKit
 
-class TvShowsTableViewController: UITableViewController {
+class ProductsTableViewController: UITableViewController {
+    
+    let products = ["Community", "Game of Thrones", "The Walking Dead", "Atlanta", "Westworld", "Red Dead Redemption 2", "Assassin's Creed Origins"]
+    let productsDescriptions = ["TV Show", "TV Show", "TV Show", "TV Show", "TV Show", "Game", "Game"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,23 +32,32 @@ class TvShowsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return products.count
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Os produtos mais comentados"
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ProductCell", for: indexPath)
+        
+        cell.textLabel!.text = products[indexPath.row]
+        cell.detailTextLabel?.text = productsDescriptions[indexPath.row]
+        
         return cell
     }
-    */
+    
+    override func tableView(_ tableView: UITableView, canFocusRowAt indexPath: IndexPath) -> Bool {
+        let canBeFocused = indexPath.row == 3 ? false : true
+        return canBeFocused
+    }
 
     /*
     // Override to support conditional editing of the table view.

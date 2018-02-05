@@ -64,15 +64,15 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Table View Controller-->
+        <!--Products Table View Controller-->
         <scene sceneID="b3i-ah-6Zv">
             <objects>
-                <tableViewController id="txc-b4-MXe" sceneMemberID="viewController">
+                <tableViewController id="txc-b4-MXe" customClass="ProductsTableViewController" customModule="Focus_Engine_Starter" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="66" sectionFooterHeight="66" id="b44-O4-d1N">
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TvShowCell" textLabel="li0-qn-Ec4" detailTextLabel="D6C-uF-Ovh" rowHeight="100" style="IBUITableViewCellStyleSubtitle" id="Ksg-tf-Ark">
+                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductCell" textLabel="li0-qn-Ec4" detailTextLabel="D6C-uF-Ovh" rowHeight="100" style="IBUITableViewCellStyleSubtitle" id="Ksg-tf-Ark">
                                 <rect key="frame" x="0.0" y="66" width="1700" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ksg-tf-Ark" id="JPq-ie-4MC">
