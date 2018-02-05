@@ -22,9 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iYU-Lf-caQ">
-                                <rect key="frame" x="699" y="68" width="523" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iYU-Lf-caQ">
+                                <rect key="frame" x="725" y="68" width="471" height="70"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="calibratedWhite"/>
                                 <segments>
                                     <segment title="Filmes"/>
@@ -32,22 +31,28 @@
                                     <segment title="Livros"/>
                                 </segments>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWa-AH-mmM">
-                                <rect key="frame" x="716" y="497" width="490" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWa-AH-mmM">
+                                <rect key="frame" x="715" y="497" width="490" height="86"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Show me the good stuff"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVl-gJ-mfG">
-                                <rect key="frame" x="861" y="839" width="200" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVl-gJ-mfG">
+                                <rect key="frame" x="914" y="966" width="93" height="46"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
+                        <constraints>
+                            <constraint firstItem="iYU-Lf-caQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="05o-W6-drJ"/>
+                            <constraint firstItem="UWa-AH-mmM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="883-pK-Skz"/>
+                            <constraint firstItem="rMi-E9-Ni9" firstAttribute="top" secondItem="iYU-Lf-caQ" secondAttribute="bottom" constant="-77" id="GSW-9V-8ak"/>
+                            <constraint firstItem="UWa-AH-mmM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ogy-w9-Voy"/>
+                            <constraint firstItem="yVl-gJ-mfG" firstAttribute="top" secondItem="rMi-E9-Ni9" secondAttribute="bottom" constant="-54" id="t4T-2d-h6n"/>
+                            <constraint firstItem="yVl-gJ-mfG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zOK-s9-3Sy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rMi-E9-Ni9"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
