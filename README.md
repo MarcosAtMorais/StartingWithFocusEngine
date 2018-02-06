@@ -10,25 +10,25 @@ Este projeto foi feito para fins educacionais.
 
 ## Introdução
 
-### Aplicando foco a uma classe que se estende de UIView.
-### Animation Coordinator
-### Contexts
-### User Interaction Enabled
-### canBecomeFocused
-### Ignorando o foco em views específicas
-### preferredFocusedView
-### preferredFocusEnvironments
+##### Aplicando foco a uma classe que se estende de UIView.
+##### Animation Coordinator
+##### Contexts
+##### User Interaction Enabled
+##### canBecomeFocused
+##### Ignorando o foco em views específicas
+##### preferredFocusedView
+##### preferredFocusEnvironments
 
 
 
 ## Por que minha view não está recebendo foco?
-#### A propriedade canBecomeFocused está definida como false.
-#### A propriedade hidden da view está definida como true.
-#### Alguma outra view está em cima da view.
-#### A propriedade alpha da view está com o valor 0 (zero).
-#### A propriedade userInteractionEnabled está definida como false.
+##### A propriedade canBecomeFocused está definida como false.
+##### A propriedade hidden da view está definida como true.
+##### Alguma outra view está em cima da view.
+##### A propriedade alpha da view está com o valor 0 (zero).
+##### A propriedade userInteractionEnabled está definida como false.
 
-### Pré-requisitos
+## Pré-requisitos
 
 Swift 4.0+, Xcode 9+.
 
